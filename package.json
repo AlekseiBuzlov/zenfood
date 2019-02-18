@@ -1,5 +1,5 @@
 {
-  "name": "my-angular-app",
+  "name": "zenfood",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,6 +19,9 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/effects": "^7.2.0",
+    "@ngrx/store": "^7.2.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
