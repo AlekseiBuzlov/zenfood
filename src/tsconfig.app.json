@@ -7,5 +7,28 @@
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
-  ]
+  ],
+  "paths": {
+      "@reducers/*": [
+        "store/reducers/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@actions/*": [
+        "store/actions/*"
+      ],
+      "@effects/*": [
+        "store/effects/*"
+      ],
+      "@core/*": [
+        "core/*"
+      ],
+      "@environment/*": [
+        "environments/*"
+      ],
+      "state": [
+        "store/reducers/reducers.ts"
+      ]
+    }
 }

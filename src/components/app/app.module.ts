@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AuthModule } from '../auth/auth.module';
+import { MainModule } from '../main/main.module';
+import { NotFoundComponent } from '../notFound/notFound.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AuthModule,
+    AppRoutingModule,
+    MainModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

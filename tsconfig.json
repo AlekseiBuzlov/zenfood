@@ -17,6 +17,26 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@reducers/*": [
+        "src/store/reducers/*"
+      ],
+      "@actions/*": [
+        "src/store/actions/*"
+      ],
+      "@effects/*": [
+        "src/store/effects/*",
+      ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@environment/*": [
+        "src/environments/*"
+      ],
+      "state": [
+        "src/app/store/reducers/reducers.ts"
+      ]
+    }
   }
 }
