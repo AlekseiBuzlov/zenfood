@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+import { AutoUnsubscribe } from '@core/AutoUnsubscribe';
 
+
+@AutoUnsubscribe()
 @Component({
   selector: 'app-sign-up',
   templateUrl: './sign-up.component.html',

@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { MainComponent } from './main.component';
+import { CommonModule } from '@common/common.module';
 
 @NgModule({
   declarations: [
     MainComponent
   ],
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   providers: [],
   bootstrap: [MainComponent]
 })
