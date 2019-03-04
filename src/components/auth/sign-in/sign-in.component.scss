@@ -1,8 +1,20 @@
+.sign-in-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F6F6F6;
     padding: 20px;
     width: 350px;
 }
 .sign-in-input {
+    width: 100%;
     margin-bottom: 20px;
+}
+.sign-up-link {
+    margin-top: 20px;
 }

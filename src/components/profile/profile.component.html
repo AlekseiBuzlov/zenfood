@@ -5,11 +5,9 @@
     <app-button [label]="'close'" (click)="myModal.close()">Close</app-button>
 </ngx-smart-modal>
 <div class='content-area'>
-    <h1>Today's menu</h1>
-    <h2>Monday 2 march</h2>
-    <div class='food-table'>
-        <app-table [data]="data" 
-            [columns]="columns"
-            (onRowClick)="onRowClick($event)"></app-table>
-    </div>
+    <h1>Profile</h1>
+    <h2>Your balance is 532som</h2>
+    <app-table [data]="data" 
+               [columns]="columns"
+               (onRowClick)="onRowClick($event)"></app-table>
 </div>

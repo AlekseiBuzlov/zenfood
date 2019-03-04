@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { AutoUnsubscribe } from '@core/AutoUnsubscribe';
 import { NgxSmartModalService } from 'ngx-smart-modal';
 
+
 @AutoUnsubscribe()
 @Component({
-  selector: 'app-main',
-  templateUrl: './main.component.html',
-  styleUrls: ['./main.component.scss']
+  selector: 'app-profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.scss']
 })
-export class MainComponent {
+export class ProfileComponent {
   constructor(public ngxSmartModalService: NgxSmartModalService) {
 
   }

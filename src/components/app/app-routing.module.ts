@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from '../main/main.component';
 import { NotFoundComponent } from '../notFound/notFound.component';
-import { AuthComponent } from '../auth/auth.component';
 
 const routes: Routes = [
     {
@@ -14,8 +13,8 @@ const routes: Routes = [
         component: MainComponent
     },
     {
-      path: '404',
-      component: NotFoundComponent
+        path: '404',
+        component: NotFoundComponent
     },
     {
         path: '**',

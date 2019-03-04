@@ -1,10 +1,12 @@
-<div class="sign-in-container">
-    <div class="sign-in-input">
-        <app-input [label]="'Email'"></app-input>
+<div class="sign-in-page">
+    <div class="sign-in-container">
+        <div class="sign-in-input">
+            <app-input [label]="'Email'"></app-input>
+        </div>
+        <div class="sign-in-input">
+            <app-input [label]="'Password'"></app-input>
+        </div>
+        <app-button [label]="'Sign In'"></app-button>
     </div>
-    <div class="sign-in-input">
-        <app-input [label]="'Password'"></app-input>
-    </div>
-    <app-button [label]="'Sign In'"></app-button>
-
+    <a class="sign-up-link" [routerLink]="['/auth/sign-up']">Not a member? Sign up!</a>
 </div>

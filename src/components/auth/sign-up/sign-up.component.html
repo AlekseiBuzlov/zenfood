@@ -1,1 +1,13 @@
-<h1>Sign Up</h1>
+<div class="sign-up-page">
+    <div class="sign-up-container">
+        <div class="sign-up-input">
+            <app-input [label]="'Email'"></app-input>
+        </div>
+        <div class="sign-up-input">
+            <app-input [label]="'Password'"></app-input>
+        </div>
+        <app-button [label]="'Sign Up'"></app-button>
+    </div>
+    <a class="sign-up-link" [routerLink]="['/auth/sign-in']">Already have an account? Sign In!</a>
+</div>
+    

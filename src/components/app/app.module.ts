@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NotFoundComponent } from '../notFound/notFound.component';
+
 import { AuthModule } from '../auth/auth.module';
 import { MainModule } from '../main/main.module';
-import { NotFoundComponent } from '../notFound/notFound.component';
+import { ProfileModule } from '../profile/profile.module';
+import { AdminModule } from '../admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -15,8 +18,10 @@ import { NotFoundComponent } from '../notFound/notFound.component';
   imports: [
     BrowserModule,
     AuthModule,
-    AppRoutingModule,
     MainModule,
+    AdminModule,
+    ProfileModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

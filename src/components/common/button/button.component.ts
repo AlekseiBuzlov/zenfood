@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { AutoUnsubscribe } from '@core/AutoUnsubscribe';
 
 @AutoUnsubscribe()
@@ -9,4 +9,9 @@ import { AutoUnsubscribe } from '@core/AutoUnsubscribe';
 })
 export class ButtonComponent {
   @Input() label?: string;
+  @Output() click?: EventEmitter<any> = new EventEmitter<any>();
+
+  public onClick() {
+    this.click.emit();
+  }
 }

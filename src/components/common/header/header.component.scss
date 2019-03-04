@@ -1,4 +1,28 @@
 .app-header {
-    height: 40px;
-    padding: 10px;
+    height: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .header-logo {
+        height: 35px;
+        width: 150px;
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/Logo.svg');
+    }
+    .header-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .profile-avatar {
+            margin-right: 5px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: grey;
+        }
+    }
 }

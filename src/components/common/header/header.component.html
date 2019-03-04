@@ -1,3 +1,12 @@
 <div class='app-header'>
-    <img src="assets/Logo.svg" alt="">
+    <div class='header-logo'></div>
+    <div class='header-menu' (click)="menu.toggle($event)">
+        <div class='profile-avatar'></div>
+        <span>Alex B.</span>
+        <ngx-menu #menu>
+                <a>Home</a>
+                <a>Home</a>
+                <a>Home</a>
+        </ngx-menu>      
+    </div>
 </div>
